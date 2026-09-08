@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact — Flashify Media</title>
+<meta name="description" content="Book a shoot with Flashify Media on WhatsApp, or send us your project details." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">Flashify <span>Media</span></a>
+    <nav class="main-nav" id="main-nav">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="testimonials.html">Testimonials</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <a href="https://wa.link/vqttkm" target="_blank" rel="noopener" class="btn btn-gold nav-cta">Book on WhatsApp</a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-header">
+    <div class="container">
+      <p class="label">Contact</p>
+      <h1>Let's make something great.</h1>
+      <p>The fastest way to book a shoot is WhatsApp. Prefer to write it out first? Use the form and we'll pick it up from there.</p>
+    </div>
+  </section>
+
+  <div class="filmstrip"></div>
+
+  <section>
+    <div class="container contact-grid">
+
+      <div>
+        <div class="contact-card">
+          <h3>WhatsApp</h3>
+          <p>Message us your dates, location and the format you need — we usually reply within the hour.</p>
+          <a href="https://wa.link/vqttkm" target="_blank" rel="noopener" class="btn btn-gold btn-block">Chat on WhatsApp</a>
+        </div>
+        <div class="contact-card">
+          <h3>Email</h3>
+          <p>For proposals, partnerships or anything that needs more detail.</p>
+          <a href="mailto:hello@flashifymedia.com" class="btn btn-ghost btn-block">hello@flashifymedia.com</a>
+        </div>
+      </div>
+
+      <div>
+        <form id="contact-form">
+          <div class="form-row">
+            <label for="cf-name">Your name</label>
+            <input type="text" id="cf-name" name="name" placeholder="Jordan Blake" required />
+          </div>
+          <div class="form-row">
+            <label for="cf-service">What do you need?</label>
+            <select id="cf-service" name="service">
+              <option value="">Select a service</option>
+              <option>Reels &amp; UGC content</option>
+              <option>Brand films &amp; campaigns</option>
+              <option>Product &amp; photography</option>
+              <option>Event coverage</option>
+              <option>Editing &amp; post-production</option>
+              <option>Content packages</option>
+              <option>Not sure yet</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="cf-message">Project details</label>
+            <textarea id="cf-message" name="message" placeholder="Tell us about your shoot — dates, location, and what you're going for."></textarea>
+          </div>
+          <button type="submit" class="btn btn-gold btn-block">Send via WhatsApp</button>
+          <p class="form-note">This opens WhatsApp with your details filled in, ready to send.</p>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="logo">Flashify <span>Media</span></a>
+      <p>Premium video production and content creation, booked on demand.</p>
+    </div>
+    <div class="footer-links">
+      <h4>Explore</h4>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="testimonials.html">Testimonials</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-contact">
+      <h4>Get in touch</h4>
+      <a href="https://wa.link/vqttkm" target="_blank" rel="noopener">WhatsApp us</a>
+      <a href="mailto:hello@flashifymedia.com">hello@flashifymedia.com</a>
+    </div>
+  </div>
+  <div class="filmstrip"></div>
+  <div class="container footer-bottom">
+    <p>© 2026 Flashify Media. All rights reserved.</p>
+    <p>Built for brands and creators who move fast.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
