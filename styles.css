@@ -112,8 +112,7 @@ button { font-family: inherit; cursor: pointer; }
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(10, 9, 8, 0.88);
-  backdrop-filter: blur(10px);
+  background: rgba(10, 9, 8, 0.97);
   border-bottom: 1px solid var(--line);
 }
 .header-inner {
@@ -128,6 +127,15 @@ button { font-family: inherit; cursor: pointer; }
   font-size: 1.35rem;
   letter-spacing: 0.02em;
   color: var(--cream);
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo-mark {
+  width: 30px;
+  height: 30px;
+  border-radius: 7px;
   flex: none;
 }
 .logo span { color: var(--gold); }
@@ -340,7 +348,9 @@ section { padding: 96px 0; }
 .video-frame {
   position: relative;
   width: 100%;
-  aspect-ratio: 16 / 9;
+  max-width: 320px;
+  margin: 0 auto;
+  aspect-ratio: 9 / 16;
   background: var(--charcoal-2);
   border: 1px solid var(--line);
   overflow: hidden;
